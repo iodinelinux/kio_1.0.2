@@ -1,0 +1,6 @@
+KIOEDIT = File;Mv_VerifyAs[.kioedit]GetKioPermit[]
+bin = BIN;GetService[<bin.dash>]
+when bin;FoundError[database] do
+BYPASS[]
+end[when]
+bin<getBin[bin.dash]>;VALID[]
